@@ -1,0 +1,24 @@
+{
+  "name": "food-ecommerce",
+  "version": "1.0.0",
+  "main": "./server/index.ts",
+  "repository": "https://github.com/novasuperior/Food-Ecommerce.git",
+  "author": "novasuperior <lawrentvoli@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev ./server/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "dotenv": "^16.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
